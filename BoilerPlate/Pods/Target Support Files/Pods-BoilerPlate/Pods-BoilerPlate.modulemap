@@ -1,0 +1,6 @@
+framework module Pods_BoilerPlate {
+  umbrella header "Pods-BoilerPlate-umbrella.h"
+
+  export *
+  module * { export * }
+}

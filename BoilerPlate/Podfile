@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'BoilerPlate' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for BoilerPlate
+  pod 'SwiftLint'
+
+  target 'BoilerPlateTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'BoilerPlateUITests' do
+    # Pods for testing
+  end
+
+end
